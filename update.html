@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <title>Update User</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="list.html">Danh Sách</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="update.html">Chỉnh Sửa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="view.html">Chi tiết</a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html">Đăng nhập</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="register.html">Đăng Ký</a>
+            </li>         
+            
+          </ul>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+  <div class="container container--center">
+    <div class="box">
+
+      <h3>Cập nhật</h3>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputUser1" class="form-label">UserName</label>
+          <input type="text" class="form-control" id="exampleInputUser1" aria-describedby="emailHelp">
+          <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Nhập lại mật khẩu</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="mb-3 form-check" style="display: inline-block; margin-left: 50%; margin-top: 8px;">
+          <a  href="">Đã có tài khoản</a>
+        </div>
+        <button type="submit" class="btn btn-primary" style="float: right;">Cập nhật</button>
+      </form>
+    </div>
+</div>
+
+<script src="public/css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

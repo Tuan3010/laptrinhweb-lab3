@@ -1,0 +1,15 @@
+.box{
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 24px;
+}
+.container--center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h3{
+  text-align: center;
+}
